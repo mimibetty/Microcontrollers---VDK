@@ -1,0 +1,113 @@
+*************************** START ****************************
+START TIME: 202310072353
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 2d2b0000
+0x3ff00054: 020064ce
+0x3ff00058: 1c00b000
+0x3ff0005c: 00c8c9a3
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 28
+target crc val: 28
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 43
+target crc val: 43
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:2D2B0000
+    REG1:020064CE
+    REG2:1c00b000
+    REG3:00C8C9A3
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ c8 c9 a3 64 ce 2dCUSTOM_ID: 01 C0 00 00 00 02 B0 00 
+MAC AP : CA-C9-A3-64-CE-2D
+MAC STA: C8-C9-A3-64-CE-2D
+get mac res: 1
+get flash id : 0x00164068
+manufacturer_id: 0x68
+device_id: 0x4016
+com closed
+Use time: 3 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202310072353
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 2d2b0000
+0x3ff00054: 020064ce
+0x3ff00058: 1c00b000
+0x3ff0005c: 00c8c9a3
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 28
+target crc val: 28
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 43
+target crc val: 43
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:2D2B0000
+    REG1:020064CE
+    REG2:1c00b000
+    REG3:00C8C9A3
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ c8 c9 a3 64 ce 2dCUSTOM_ID: 01 C0 00 00 00 02 B0 00 
+MAC AP : CA-C9-A3-64-CE-2D
+MAC STA: C8-C9-A3-64-CE-2D
+get mac res: 1
+get flash id : 0x00164068
+manufacturer_id: 0x68
+device_id: 0x4016
+Wrote 265616 bytes at 0x00000000 in 17.4 seconds (effective 122.2 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 19 s
+Download result: PASS
+*************************** END ****************************
+
